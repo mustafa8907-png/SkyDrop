@@ -1,0 +1,12 @@
+drop:
+  interval-minutes: 60
+  expire-minutes: 30
+  spawn-height-offset: 20
+  world: world
+  anti-steal: false
+
+messages:
+  drop-start: "&6&l[SkyDrop] &7An orbital supply crate is dropping at &e%x%, %z%&7!"
+  drop-landed: "&a&l[SkyDrop] &7Supply crate has landed at &e%x%, %z%&7."
+  drop-opened: "&b&l[SkyDrop] &7%player% opened a supply crate at &e%x%, %z%&7."
+  drop-expired: "&c&l[SkyDrop] &7A supply crate expired before anyone opened it."
